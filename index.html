@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP ICON LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FILES LINKS -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/bootstrap/js/bootstrap.bundle.js">
+    <title>Furniture | Home</title>
+</head>
+
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar navbar-expand-lg py-4 sticky-top bg-white" style="z-index: 999;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="Assets/img/logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding: 0 14px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="">SHOP</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="#product">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-lg-flex d-sm-none" role="search">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <i class="bi bi-search fs-4"></i>
+                </button>
+                <a class="btn" href="sign.html" type="button">
+                    <i class="bi bi-person fs-3"></i>
+                </a>
+                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="Cart">
+                    <i class="bi bi-handbag fs-4"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Search</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Write here" aria-label="Search">
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-success" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR ENDS -->
+    <!-- HOME SECTION STARTS -->
+    <section id="home">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active slide-1" data-bs-interval="3500">
+                    <div class="hero-content-one container">
+                        <div class="row" style="margin-top: 150px; margin-left: 80px;">
+                            <div class="col-lg-6 col-md-8">
+                                <div class="slider-text-info">
+                                    <h3 class="">Top Selling!</h3>
+                                    <h1 style="font-size: 58px; font-weight: 700;">New Furniture</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        <br>tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn slider-btn uppercase"><span>SHOP NOW</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide-2" data-bs-interval="3500">
+                    <div class="hero-content-one container">
+                        <div class="row" style="margin-top: 100px; margin-left: 80px;">
+                            <div class="col-lg-6 col-md-8">
+                                <div class="slider-text-info">
+                                    <h3 class="">Top Selling!</h3>
+                                    <h1 style="font-size: 58px; font-weight: 700;">New Collection</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        <br>tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <a href="" class="btn slider-btn uppercase"><span>SHOP NOW</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOME SECTION ENDS -->
+    <!-- CHAIR COLLECTION STARTS -->
+    <section class="banner-area" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-banner">
+                        <div class="banner-bg">
+                            <a href=""><img src="Assets/img/chair-1.webp" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="banner-contet">
+                            <p>30% Off</p>
+                            <h3>Chair Collection </h3>
+                            <a href="#" class="btn-3">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  col-md-6">
+                    <div class="single-banner s-mt-30">
+                        <div class="banner-bg">
+                            <a href=""><img src="Assets/img/chair-2.webp" alt="" class="img-fluid"></a>
+                        </div>
+                        <div class="banner-contet">
+                            <p>30% Off</p>
+                            <h3>Chair Collection </h3>
+                            <a href="#" class="btn-3">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHAIR COLLECTION ENDS -->
+    <!-- NEW ARRIVALS STARTS -->
+    <section class="product-area" id="product" style="padding-bottom: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>New Arrivals</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrapper">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-1" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 001</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">140.00</span>
+                                    <span class="new-price">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-2" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 002</h3>
+                                <div class="price-box">
+                                    <!-- <span class="text-decoration-line-through">140.00</span> -->
+                                    <span class="">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-3.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 003</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">230.00</span>
+                                    <span class="new-price">210.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-4.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 004</h3>
+                                <div class="price-box">
+                                    <!-- <span class="text-decoration-line-through old-price">140.00</span> -->
+                                    <span class="new-price">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-5.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 005</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">100.00</span>
+                                    <span class="new-price">150.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-6.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 006</h3>
+                                <div class="price-box">
+                                    <!-- <span class="text-decoration-line-through">140.00</span> -->
+                                    <span class="">130.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-7.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 007</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">250.00</span>
+                                    <span class="new-price">230.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/new-8.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 008</h3>
+                                <div class="price-box">
+                                    <!-- <span class="text-decoration-line-through">140.00</span> -->
+                                    <span class="">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEW ARRIVALS ENDS -->
+    <!-- BANNER STARTS -->
+    <div class="lg-banner-area lg-banner-bg-2" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 offset-lg-5">
+                    <div class="lg-banner-info text-center" style="margin: 30px 0;">
+                        <h2>Contrary to popular belief is not simply rand.</h2>
+                        <a href="" class="btn more-product-btn">MORE PRODUCTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BANNER ENDS -->
+    <!-- FEATURED PRODUCTS STARTS -->
+    <section class="product-area" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Products</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrapper">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/prod-1.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 009</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">150.00</span>
+                                    <span class="new-price">125.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/prod-2.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 010</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">144.00</span>
+                                    <span class="new-price">124.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/prod-3.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 011</h3>
+                                <div class="price-box">
+                                    <span class="text-decoration-line-through old-price">130.00</span>
+                                    <span class="new-price">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-product-wrap">
+                            <div class="product-image">
+                                <a href=""><img src="Assets/img/prod-4.webp" alt="" class="img-fluid"></a>
+                                <div class="product-action">
+                                    <a href="" class="wishlist"><i class="bi bi-suit-heart"></i></a>
+                                    <a href="" class="add-to-cart"><i class="bi bi-handbag"></i></a>
+                                    <a href="" class="quick-view"><i class="fa-solid fa-shuffle"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-content ">
+                                <h3>Products Name 012</h3>
+                                <div class="price-box">
+                                    <!-- <span class="text-decoration-line-through old-price">140.00</span> -->
+                                    <span class="new-price">120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURED PRODUCTS ENDS -->
+    <!-- SERVICE AREA STARTS -->
+    <section class="our-service-area" style="padding-bottom: 70px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-service text-center" style="margin-bottom: 30px;">
+                        <div class="service-icon">
+                            <img src="Assets/img/service-1.webp" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3>Free Home Delivery.</h3>
+                            <p>Lorem ipsum dolor sit amet consec adi elit sed do eiusmod tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-service text-center" style="margin-bottom: 30px;">
+                        <div class="service-icon">
+                            <img src="Assets/img/service-2.webp" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3>Free Home Delivery.</h3>
+                            <p>Lorem ipsum dolor sit amet consec adi elit sed do eiusmod tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-service text-center" style="margin-bottom: 30px;">
+                        <div class="service-icon">
+                            <img src="Assets/img/service-3.webp" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3>24 Hour Support.</h3>
+                            <p>Lorem ipsum dolor sit amet consec adi elit sed do eiusmod tempor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICE AREA ENDS -->
+    <!-- TESTIMONIALS STARTS -->
+    <section id="testimonials" class="testimonial-area testimonial-bg overlay" style="padding: 100px 0;">
+        <div class="container">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel" data-aos="fade-up" data-aos-delay="100">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <div class="row event-item text-white">
+                            <div class="col-lg-12 text-center pt-4 pt-lg-0 content">
+                                <div class="testimonial-inner">
+                                    <div class="test-cont">
+                                        <img src="Assets/img/quote.webp" alt="">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                                            majority have suffered alteration in some form. There are many variations of
+                                            passages.
+                                        </p>
+                                    </div>
+                                    <div class="test-author">
+                                        <h4>Michelle Mitchell</h4>
+                                        <p>UI UX - Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="row event-item text-white">
+                            <div class="col-lg-12 text-center pt-4 pt-lg-0 content">
+                                <div class="testimonial-inner ">
+                                    <div class="test-cont">
+                                        <img src="Assets/img/quote.webp" alt="">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the
+                                            majority have suffered alteration in some form. There are many variations of
+                                            passages.
+                                        </p>
+                                    </div>
+                                    <div class="test-author">
+                                        <h4>Michelle Mitchell</h4>
+                                        <p>UI UX - Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TESTIMONIALS ENDS -->
+    <!-- SUSBCRIBE STARTS -->
+    <section class="section-area" id="about" style="padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="subscribe-area">
+                        <div class="subscribe-title text-center">
+                            <h3>Subscribe</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                        </div>
+                        <div class="subscribe-content text-center">
+                            <input class="input-field" type="email" placeholder="your mail address">
+                            <button class=" btn subscribe-btn">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="instagram-wrapper">
+                        <div class="instagram-title text-center">
+                            <h3>Follow us on Instagram 
+                                <a href="#" class="text-decoration-none">@furniture</a>
+                            </h3>
+                        </div>
+                        <div class="instagram-wrap instagram-slider row">
+                            <div class="col-lg-6">
+                                <div class="single-instagram">
+                                    <a href="#"><img src="Assets/img/subs-1.webp" alt=""></a>
+                                </div>  
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="single-instagram">
+                                    <a href="#"><img src="Assets/img/subs-2.webp" alt=""></a>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUSBCRIBE ENDS -->
+    <!-- BRAND AREA STARTS -->
+    <section class="our-brand-area" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="our-brand-active d-flex justify-content-around">
+                        <div class="single-brand">
+                            <a href=""><img src="Assets/img/brand-1.webp" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href=""><img src="Assets/img/brand-2" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href=""><img src="Assets/img/brand-3.webp" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href=""><img src="Assets/img/brand-4.webp" alt=""></a>
+                        </div>
+                        <div class="single-brand">
+                            <a href=""><img src="Assets/img/brand-5.webp" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BRAND AREA ENDS -->
+    <!-- FOOTER STARTS -->
+    <footer class="footer-area">
+        <div class="footer-top" style="padding-top: 40px; padding-bottom: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>My Account</h3>
+                            </div>
+                            <ul class="footer-info-list list-unstyled">
+                                <li>
+                                    <i class="bi bi-geo-alt"></i> 184 Main Rd E, St Albans VIC 3021, Australia
+                                </li>
+                                <li>
+                                    <i class="bi bi-envelope"></i> Mill Us : <a href="#" class="text-decoration-none">yourmail@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-telephone"></i> Phone: + 00 254 254565 54
+                                </li>
+                            </ul>
+                            <div class="payment-cart">
+                                <img src="Assets/img/upi.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Ecommerce</a></li>
+                                <li><a href="#" class="text-decoration-none">Shopify</a></li>
+                                <li><a href="#" class="text-decoration-none">Prestashop</a></li>
+                                <li><a href="#" class="text-decoration-none">Opencart</a></li>
+                                <li><a href="#" class="text-decoration-none">Magento</a></li>
+                                <li><a href="#" class="text-decoration-none">Jigoshop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Information</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Home</a></li>
+                                <li><a href="#" class="text-decoration-none">About Us</a></li>
+                                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                                <li><a href="#" class="text-decoration-none">Returns & Exchanges</a></li>
+                                <li><a href="#" class="text-decoration-none">Shipping & Delivery</a></li>
+                                <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Store Location</a></li>
+                                <li><a href="#" class="text-decoration-none">My Account</a></li>
+                                <li><a href="#" class="text-decoration-none">Orders Tracking</a></li>
+                                <li><a href="#" class="text-decoration-none">Size Guide</a></li>
+                                <li><a href="#" class="text-decoration-none">Shopping Rates</a></li>
+                                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 text-center">
+                        <div class="copyright" style="padding: 30px 0 0; font-size: 20px;">
+                            Designed by <span class="fw-bold"> Mr. Harsh Shah </span>
+                            <br>
+                            Copyright @All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <!-- SCRIPTS CDN AND LINKS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>

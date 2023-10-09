@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP ICON LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FILES LINKS -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/bootstrap/js/bootstrap.bundle.js">
+    <title>Furniture | My Account</title>
+</head>
+
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar navbar-expand-lg py-4 sticky-top bg-white" style="z-index: 999;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="Assets/img/logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding: 0 14px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="">SHOP</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="#product">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item" style="padding: 0 14px;">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-lg-flex d-sm-none" role="search">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <i class="bi bi-search fs-4"></i>
+                </button>
+                <a class="btn" href="sign.html" type="button">
+                    <i class="bi bi-person fs-3"></i>
+                </a>
+                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="Cart">
+                    <i class="bi bi-handbag fs-4"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Search</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Write here" aria-label="Search">
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-success" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR ENDS -->
+    <!-- breadcrumb-area start -->
+    <section class="breadcrumb-area" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="breadcrumb-title">Login &amp; Register</h2>
+                    <!-- breadcrumb-list start -->
+                    <ul class="breadcrumb-list">
+                        <li class="breadcrumb-item">
+                            <a href="index.html" class="text-decoration-none text-dark">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">Login &amp; Register</li>
+                    </ul>
+                    <!-- breadcrumb-list end -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb-area end -->
+    <!-- main-content-wrap start -->
+    <section class="main-content-wrap lagin-and-register-page" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 m-auto">
+                    <div class="login-register-wrapper">
+                        <!-- login-register-tab-list start -->
+                        <div class="login-register-tab-list nav">
+                            <a class="active text-decoration-none text-dark" data-bs-toggle="tab" href="#lg1">
+                                <h4> login </h4>
+                            </a>
+                            <a data-bs-toggle="tab" class="text-decoration-none text-dark" href="#lg2">
+                                <h4> register </h4>
+                            </a>
+                        </div>
+                        <!-- login-register-tab-list end -->
+                        <div class="tab-content">
+                            <div id="lg1" class="tab-pane active">
+                                <div class="login-form-container">
+                                    <div class="login-register-form">
+                                        <form action="#" method="post">
+                                            <div class="login-input-box">
+                                                <input type="text" name="user-name" placeholder="User Name" required>
+                                                <input type="password" name="user-password" placeholder="Password" required>
+                                            </div>
+                                            <div class="button-box">
+                                                <div class="login-toggle-btn">
+                                                    <input type="checkbox">
+                                                    <label>Remember me</label>
+                                                    <a href="#" class="text-decoration-none">Forgot Password?</a>
+                                                </div>
+                                                <div class="button-box">
+                                                    <a class="login-btn btn"
+                                                        type="submit" href="index.html"><span>Login</span></a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="lg2" class="tab-pane">
+                                <div class="login-form-container">
+                                    <div class="login-register-form">
+                                        <form action="#" method="post">
+                                            <div class="login-input-box">
+                                                <input type="text" name="user-name" placeholder="User Name">
+                                                <input type="password" name="user-password" placeholder="Password">
+                                                <input name="user-email" placeholder="Email" type="email">
+                                            </div>
+                                            <div class="button-box">
+                                                <a class="register-btn btn"
+                                                    type="submit" href="index.html"><span>Register</span></a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main-content-wrap end -->
+    <!-- FOOTER STARTS -->
+    <footer class="footer-area">
+        <div class="footer-top" style="padding-top: 40px; padding-bottom: 100px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>My Account</h3>
+                            </div>
+                            <ul class="footer-info-list list-unstyled">
+                                <li>
+                                    <i class="bi bi-geo-alt"></i> 184 Main Rd E, St Albans VIC 3021, Australia
+                                </li>
+                                <li>
+                                    <i class="bi bi-envelope"></i> Mill Us : <a href="#"
+                                        class="text-decoration-none">yourmail@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-telephone"></i> Phone: + 00 254 254565 54
+                                </li>
+                            </ul>
+                            <div class="payment-cart">
+                                <img src="Assets/img/upi.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Ecommerce</a></li>
+                                <li><a href="#" class="text-decoration-none">Shopify</a></li>
+                                <li><a href="#" class="text-decoration-none">Prestashop</a></li>
+                                <li><a href="#" class="text-decoration-none">Opencart</a></li>
+                                <li><a href="#" class="text-decoration-none">Magento</a></li>
+                                <li><a href="#" class="text-decoration-none">Jigoshop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Information</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Home</a></li>
+                                <li><a href="#" class="text-decoration-none">About Us</a></li>
+                                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                                <li><a href="#" class="text-decoration-none">Returns & Exchanges</a></li>
+                                <li><a href="#" class="text-decoration-none">Shipping & Delivery</a></li>
+                                <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-4">
+                        <div class="footer-info" style="margin-top: 60px;">
+                            <div class="footer-title">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul class="footer-list list-unstyled">
+                                <li><a href="#" class="text-decoration-none">Store Location</a></li>
+                                <li><a href="#" class="text-decoration-none">My Account</a></li>
+                                <li><a href="#" class="text-decoration-none">Orders Tracking</a></li>
+                                <li><a href="#" class="text-decoration-none">Size Guide</a></li>
+                                <li><a href="#" class="text-decoration-none">Shopping Rates</a></li>
+                                <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 text-center">
+                        <div class="copyright" style="padding: 30px 0 0; font-size: 20px;">
+                            Designed by <span class="fw-bold"> Mr. Harsh Shah </span>
+                            <br>
+                            Copyright @All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <!-- SCRIPTS CDN AND LINKS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
